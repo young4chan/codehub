@@ -15,3 +15,6 @@ rename the file whose name ended with 'Video-i.Avi' to 'Videoi.avi', 'i' in 'Vid
 # videonameupdate.py
 append cfg to the name of each saved video from the movieclip process.
 the cfg reads from a cfglist.txt
+
+# autosavepic.py
+It detects the text in a specific area of a picture, inject in into Baidu OCR api, get the result. However, the output is quite poor.
