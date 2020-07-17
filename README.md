@@ -18,3 +18,6 @@ the cfg reads from a cfglist.txt
 
 # autosavepic.py
 It detects the text in a specific area of a picture, inject in into Baidu OCR api, get the result. However, the output is quite poor.
+
+# binarysearch.py
+It defines how to traverse a binary tree and query a tree.
