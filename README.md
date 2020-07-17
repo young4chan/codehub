@@ -21,3 +21,6 @@ It detects the text in a specific area of a picture, inject in into Baidu OCR ap
 
 # binarysearch.py
 It defines how to traverse a binary tree and query a tree.
+
+# dfs.py
+Implement the dfs algorithm and bfs algorithm, while the maze application is not tested and incompleted
