@@ -28,9 +28,9 @@ Implement the dfs algorithm and bfs algorithm, while the maze application is not
 # soLibEncap
 To create a dynamic library, hide the implementation detals and leaves only the interface
 ## Usage:
-'''
-cd soLibEncap
-sudo g++ -fpic -shared -o libA.so file1.cpp file2.cpp -I /usr/local/include -L /usr/local/lib -lopencv_core -lopencv_highgui
-export LD_LIBRARY_PATH=/home/young/project/codehub/soLibEncap:$LD_LIBRARY_PATH
-g++ -o demo demo.cpp -L. -lA
+'''  
+cd soLibEncap  
+sudo g++ -fpic -shared -o libA.so file1.cpp file2.cpp -I /usr/local/include -L /usr/local/lib -lopencv_core -lopencv_highgui  
+export LD_LIBRARY_PATH=/home/young/project/codehub/soLibEncap:$LD_LIBRARY_PATH  
+g++ -o demo demo.cpp -L. -lA  
 '''
