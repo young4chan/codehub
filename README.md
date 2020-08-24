@@ -34,3 +34,6 @@ sudo g++ -fpic -shared -o libA.so file1.cpp file2.cpp -I /usr/local/include -L /
 export LD_LIBRARY_PATH=/home/young/project/codehub/soLibEncap:$LD_LIBRARY_PATH  
 g++ -o demo demo.cpp -L. -lA  
 '''
+
+# udpSendBin
+send out 01.bin file through UDP
